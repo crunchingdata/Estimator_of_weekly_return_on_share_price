@@ -40,5 +40,6 @@ At last, I built a cross-model, that combines Model 1 with Model 2 in order to c
 * Problem: Due to more scattering by considering more years, the extreme values in Model 1 or 2 decrease, while the period length increases. 
 * Solution: Weighting the values of the Model with minor absolute values, so that values of Model 1 and Model 2 have in total the same length. The minor values have to be changed, since the mayor values are supposed to come from a shorter period, so there is a more realistic return estimation due to less scattering.
 ## Instructions of use
+* Get an API-Key at [https://www.alphavantage.co/](https://www.alphavantage.co/) and enter it at line 2.
 * Model 1: Input is a time period with similar events as the current ones. 
 * Model 2: Input is the number of years to set the length of the time period. The time period will start with weight 10% on return of the oldest year. The decay factor is being calculated through the total of years of the period. Young years are considered heavy into account.
