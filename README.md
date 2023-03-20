@@ -6,7 +6,7 @@
 ## Code and resources used
 * Python 3.9.15.
 * Packages: pandas, numpy, math, plotly.express, plotly.graph_objects, requests, json.
-* dataset: dynamic data per company on about exemplary ING Bank~[5877 rows x 9 columns] covering 20+ years of historical data from API [](https://www.alphavantage.co/).
+* dataset: dynamic data per company on about exemplary ING Bank~[5877 rows x 9 columns] covering 20+ years of historical data from API [https://www.alphavantage.co/](https://www.alphavantage.co/).
 
 ## Data cleaning
 * Implemented a search engine to access identification of shares on the market from API 
