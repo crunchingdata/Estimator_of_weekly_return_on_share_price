@@ -3,7 +3,7 @@
 * Implemented an exponential decay to optimize Exponential Moving Average (EMA) / exponential smoothing.
 * Built various models to reach best forecast through (equal) weighted average for weekly return.
 
-## Code and resources used
+## Code and resources
 * Python 3.9.15.
 * Packages: pandas, numpy, math, plotly.express, plotly.graph_objects, requests, json.
 * dataset: dynamic data per company on about exemplary ING Bank~[5877 rows x 9 columns] covering 20+ years of historical data from API [https://www.alphavantage.co/](https://www.alphavantage.co/).
